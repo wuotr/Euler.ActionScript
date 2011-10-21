@@ -30,13 +30,13 @@ public class EulerProblem003 extends Sprite {
         divideByPrime(num, prime);
     }
 
-    private function isPrime(num:Number):Boolean {
-        for (var i:int = (num - 1); i > 1; i--) {
-            if ((num % i) == 0) {
+    public function isPrime(num:Number):Boolean {
+        for (var i:Number = 3; i <= Math.sqrt(num); i += 2) {
+            if (num % i == 0) {
                 return false;
             }
         }
-        return true;
+        return (( num % 2 != 0 && num > 2) || num == 2);
     }
 }
 }
