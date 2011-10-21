@@ -1,8 +1,8 @@
 package {
 import flash.display.Sprite;
 
-public class EulerProblem1 extends Sprite {
-    public function EulerProblem1() {
+public class EulerProblem001 extends Sprite {
+    public function EulerProblem001() {
 
         /*
         If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.

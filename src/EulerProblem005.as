@@ -1,8 +1,8 @@
 package {
 import flash.display.Sprite;
 
-public class EulerProblem5 extends Sprite {
-    public function EulerProblem5() {
+public class EulerProblem005 extends Sprite {
+    public function EulerProblem005() {
         super();
 
         /*
